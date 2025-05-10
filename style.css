@@ -1,0 +1,230 @@
+*        {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .hero{
+     background-image: url('db56990f4664ed974a3f796029a60e22157f740e.jpg'); /* Rasmni yuklash */
+        background-size: cover; /* Rasmni butun divni qoplash */
+        background-position: center; 
+        background-repeat: no-repeat; 
+        width: 100%;
+        height: 100vh;
+  }
+  header {
+    background: white;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: white;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+    
+       
+    }
+  
+  .hero-text h1 {
+    font-size: 36px;
+  }
+  
+  .highlight {
+    color: green;
+  }
+  
+  .hero-text p {
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .blog-button {
+    background: #f04b2f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .resource-link {
+    color: #888;
+    text-decoration: underline;
+  }
+  
+  .hero-image img {
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .help {
+    padding: 20px 40px;
+    background: #e0f7e9;
+  }
+  
+  .help h3 {
+    color: green;
+  }
+  
+  .help ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .help li {
+    margin-bottom: 5px;
+  }
+  
+  .team {
+    background: #1e2b50;
+    color: white;
+    padding: 30px 40px;
+  }
+  
+  .team-members {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .team-members img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .meet-button {
+    background: green;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .promo {
+    background: #1e2b50;
+    padding: 40px;
+    color: white;
+  }
+  
+  .promo-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .promo-text {
+    max-width: 50%;
+  }
+  
+  .promo-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .promo-text p {
+    margin-bottom: 15px;
+  }
+  
+  .green-button {
+    background: #33cc66;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .promo-image img {
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .pricing {
+    background: #1e2b50;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .pricing h2 {
+    margin-bottom: 30px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    color: #333;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  
+  .price span {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .card li {
+    margin-bottom: 8px;
+  }
+  
+  .card .green-button {
+    display: block;
+    text-align: center;
+  }
+  
+  
